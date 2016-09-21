@@ -1,12 +1,12 @@
+
 <script>
-  import store from './store/store'
   export default {
-    store
+    name: 'Series'
   }
 </script>
 
 <template>
   <div>
-    <router-view></router-view>
+    <h1>Séries</h1>
   </div>
 </template>

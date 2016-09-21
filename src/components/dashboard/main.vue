@@ -1,12 +1,12 @@
+
 <script>
-  import store from './store/store'
   export default {
-    store
+    name: 'Dashboard'
   }
 </script>
 
 <template>
   <div>
-    <router-view></router-view>
+    <h1>Dashboard</h1>
   </div>
 </template>

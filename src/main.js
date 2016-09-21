@@ -1,10 +1,6 @@
-import Vue from 'vue'
+
 import App from './App'
-import store from './store/store'
+import { routerSetup } from './router/setup'
 
 /* eslint-disable no-new */
-new Vue({
-  store,
-  el: 'body',
-  components: { App }
-})
+routerSetup(App)
